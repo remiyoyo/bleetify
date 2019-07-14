@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "10.0.0"
 install:
-  - npm ci
+  - npm i
 cache: npm
 script:
   - npm test
