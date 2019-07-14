@@ -38,10 +38,10 @@ $ npm test
 
 List of the functions available to you if you install this illustrious npm package.
 
-### Bleet
+### Bleetify.bleet(message, threshold _(optional)_)
 
 ```javascript
 Bleetify.bleet('A message to bleet :o', 30) // returns 'A message to bleet :o' with a 30% chance of having baa
                                             // at the start or the end. Whether they are at the start or the end
-                                            // is dictated by a coinflip
+                                            // is dictated by a coinflip. Threshold defaults to 20%.
 ```
