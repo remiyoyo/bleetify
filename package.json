@@ -1,7 +1,7 @@
 {
   "name": "bleetify",
   "version": "1.0.0",
-  "description": "have you ever wanted to talk like a goat?",
+  "description": "have you ever wanted to talk like a goat? what do you mean no?",
   "main": "index.js",
   "scripts": {
     "test": "lab -c -L"
