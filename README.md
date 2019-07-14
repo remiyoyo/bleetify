@@ -34,3 +34,14 @@ $ npm test
   const bleet = Bleetify.bleet(sentence, 100);
   console.log(bleet);
 ```
+## Functions
+
+List of the functions available to you if you install this illustrious npm package.
+
+### Bleet
+
+```javascript
+Bleetify.bleet('A message to bleet :o', 30) // returns 'A message to bleet :o' with a 30% chance of having baa
+                                            // at the start or the end. Whether they are at the start or the end
+                                            // is dictated by a coinflip
+```
