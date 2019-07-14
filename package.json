@@ -1,0 +1,34 @@
+{
+  "name": "bleetify",
+  "version": "1.0.0",
+  "description": "have you ever wanted to talk like a goat?",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlaltcookie/bleetify.git"
+  },
+  "keywords": [
+    "string manipulation",
+    "silly string transformations",
+    "bleet like a goat",
+    "bleet like a sheep"
+  ],
+  "author": "Remi Butler",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ctrlaltcookie/bleetify/issues"
+  },
+  "homepage": "https://github.com/ctrlaltcookie/bleetify#readme",
+  "dependencies": {
+    "@remibutler/easyrandom": "^1.1.0"
+  },
+  "devDependencies": {
+    "@hapi/code": "^5.3.1",
+    "@hapi/lab": "^19.1.0",
+    "eslint": "^6.0.1",
+    "sinon": "^7.3.2"
+  }
+}
