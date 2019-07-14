@@ -1,6 +1,6 @@
 {
   "name": "bleetify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "have you ever wanted to talk like a goat? what do you mean no?",
   "main": "index.js",
   "scripts": {
