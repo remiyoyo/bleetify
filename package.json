@@ -4,7 +4,7 @@
   "description": "have you ever wanted to talk like a goat? what do you mean no?",
   "main": "index.js",
   "scripts": {
-    "test": "lab -c -L"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -26,12 +26,15 @@
   },
   "homepage": "https://github.com/ctrlaltcookie/bleetify#readme",
   "dependencies": {
-    "@remibutler/easyrandom": "^1.1.0"
+    "@remibutler/easyrandom": "^1.1.1"
   },
   "devDependencies": {
-    "@hapi/code": "^5.3.1",
-    "@hapi/lab": "^19.1.0",
+    "chai": "^4.2.0",
     "eslint": "^6.0.1",
+    "mocha": "^6.2.2",
     "sinon": "^7.3.2"
+  },
+  "resolutions": {
+    "https-proxy-agent": "^3.0.0"
   }
 }

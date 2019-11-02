@@ -1,19 +1,15 @@
 const Bleetify = require('../index');
-const Code = require('@hapi/code');
-const Lab = require('@hapi/lab');
 const Rand = require('@remibutler/easyrandom');
 const Sinon = require('sinon');
+const mocha = require('mocha');
+const chai = require('chai');
 
 // Test shortcuts
-
-const lab = exports.lab = Lab.script();
-// const before = lab.before;
-// const after = lab.after;
-const beforeEach = lab.beforeEach;
-const afterEach = lab.afterEach;
-const describe = lab.describe;
-const it = lab.it;
-const expect = Code.expect;
+const beforeEach = mocha.beforeEach;
+const afterEach = mocha.afterEach;
+const describe = mocha.describe;
+const it = mocha.it;
+const expect = chai.expect;
 
 describe('Bleet', () => {
 
